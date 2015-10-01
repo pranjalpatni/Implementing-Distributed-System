@@ -1,6 +1,6 @@
 WHAT TO DO:
 
-- All the files should be placed inside CS6378/Project1 folder (I have already placed them in this)
+- All the files should be placed inside CS6378/Project1 folder
 
 - The CS6378 folder should be placed in the home folder
 
