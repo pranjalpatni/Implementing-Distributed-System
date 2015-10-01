@@ -24,7 +24,6 @@ Go inside the Project1 folder and type the following:
 ./launcher.sh config.txt
 
 
-
 RUNNING THE CLEANUP SCRIPT:
 
 - Run the cleanup script similarly as follows:
