@@ -1,0 +1,44 @@
+WHAT TO DO:
+
+- All the files should be placed inside CS6378/Project1 folder (I have already placed them in this)
+
+- The CS6378 folder should be placed in the home folder
+
+- Please compile the .java files by using following command:
+
+javac *.java
+
+- Change the mode of the .sh files as follows:
+chmod +x *.sh
+
+- In order to use your credentials for running the scripts according to your netid, please change the "netid" portion of both the launcher and cleanup scripts.
+
+RUNNING THE LAUNCHER SCRIPT:
+
+- The launcher script accepts "config.txt" file as an argument, so that you can run any config file you want
+
+- Please make sure that the "config.txt" file is present inside the CS6378/Project1 folder, which also contains the launcher and cleanup script
+
+e.g.-
+Go inside the Project1 folder and type the following:
+./launcher.sh config.txt
+
+
+
+RUNNING THE CLEANUP SCRIPT:
+
+- Run the cleanup script similarly as follows:
+
+e.g.-
+./cleanup.sh config.txt
+
+
+Note:
+
+- Since the launcher script does an ssh into the remote machines, please make sure you configure the machines with an encrypted key so that it allows you to enter the machine without providing any password
+
+- After the launcher script is run, please wait for a few seconds before you run the cleanup script so that all the tokens get appropriate time to be sent (will take around 5 seconds or less) 
+
+- I have provided a sample "config.txt" file.
+
+- If you run the Project once for a particular configuration file and then run it for another configuration file, then the output log files genearted will overwrite the previous logs. So, make sure you read the outputs after each configuration test.
